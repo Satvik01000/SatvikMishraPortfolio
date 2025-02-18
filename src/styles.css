@@ -1,0 +1,22 @@
+/* For WebKit-based browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1e1e1e; /* Dark background */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00ffff; /* Neon cyan */
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #00bfbf;
+}
+
+/* For Firefox */
+html {
+    scrollbar-color: #00ffff #1e1e1e;
+}
