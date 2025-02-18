@@ -1,8 +1,8 @@
 import { ImageList, ImageListItem, Typography } from "@mui/material";
-import LeetcodeLogo from "../../util/ProfileLinks/LeetcodeLogoWhite.png";
-import githubLogo from "../../util/ProfileLinks/github-mark-white.png";
-import LinkedinLogo from "../../util/ProfileLinks/In-Blue-34@2x.png";
-import EmailLogo from "../../util/ProfileLinks/communication.png";
+import LeetcodeLogo from "../util/ProfileLinks/LeetcodeLogoWhite.png";
+import githubLogo from "../util/ProfileLinks/github-mark-white.png";
+import LinkedinLogo from "../util/ProfileLinks/In-Blue-34@2x.png";
+import EmailLogo from "../util/ProfileLinks/communication.png";
 
 const ProfileLinks = () => {
     return (
