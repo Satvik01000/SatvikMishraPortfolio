@@ -11,11 +11,11 @@ const Backend = () => {
     return (
         <Grid2 container spacing={15} justifyContent="center" alignItems="center" mt={3}>
             {[
-                { src: JavaLogo, name: "Java", width: 130, height: 130 },
-                { src: SpringBootLogo, name: "Spring Boot", width: 120, height: 120 },
-                { src: MavenLogo, name: "Maven", width: 190, height: 50, bg: "white" },
-                { src: MySQLLogo, name: "MySQL", width: 160, height: 100 },
-                { src: Logo, name: "C++", width: 110, height: 110 }
+                { src: JavaLogo, name: "Java", width: 130-20, height: 130-20 },
+                { src: SpringBootLogo, name: "Spring Boot", width: 120-20, height: 120-20 },
+                { src: MavenLogo, name: "Maven", width: 190-20, height: 50-20, bg: "white" },
+                { src: MySQLLogo, name: "MySQL", width: 160-20, height: 100-20 },
+                { src: Logo, name: "C++", width: 110-20, height: 110 -20}
             ].map((skill, index) => (
                 <Grid2 item key={index}>
                     <Box textAlign="center">

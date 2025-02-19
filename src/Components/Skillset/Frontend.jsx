@@ -11,11 +11,11 @@ const Frontend = () => {
     return (
         <Grid2 container spacing={17} justifyContent="center" alignItems="center" mt={3}>
             {[
-                { src: HTMLLogo, name: "HTML", width: 125, height: 125 },
-                { src: CSSLogo, name: "CSS", width: 120, height: 120 },
-                { src: JavaScriptLogo, name: "JavaScript", width: 120, height: 120 },
-                { src: ReactLogo, name: "React", width: 160, height: 100 },
-                { src: MaterialUILogo, name: "Material UI", width: 110, height: 110 }
+                { src: HTMLLogo, name: "HTML", width: 125-20, height: 125-20 },
+                { src: CSSLogo, name: "CSS", width: 120-20, height: 120-20 },
+                { src: JavaScriptLogo, name: "JavaScript", width: 120-20, height: 120-20 },
+                { src: ReactLogo, name: "React", width: 160-20, height: 100-20 },
+                { src: MaterialUILogo, name: "Material UI", width: 110-20, height: 110-20 }
             ].map((skill, index) => (
                 <Grid2 item key={index}>
                     <Box textAlign="center">

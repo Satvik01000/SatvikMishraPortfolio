@@ -11,16 +11,16 @@ const ProfileLinks = () => {
                 Here are some of my profiles :
             </Typography>
             <ImageList sx={{ display: "flex", flexDirection: "row", justifyContent: "flex-start", alignItems: "flex-start" }}>
-                <ImageListItem sx={{ width: 32, height: 25, mx: 2, transition: "opacity 0.3s", ":hover": { opacity: 0.7 } }} component="a" href="https://leetcode.com/u/Satvik0100/" target="_blank" rel="noopener noreferrer">
+                <ImageListItem sx={{ width: 28, height: 20, mx: 2, transition: "opacity 0.3s", ":hover": { opacity: 0.7 } }} component="a" href="https://leetcode.com/u/Satvik0100/" target="_blank" rel="noopener noreferrer">
                     <img src={LeetcodeLogo} alt="LeetCode Profile" />
                 </ImageListItem>
-                <ImageListItem sx={{ width: 43, height: 25, mx: 2, transition: "opacity 0.3s", ":hover": { opacity: 0.7 } }} component="a" href="https://github.com/Satvik01000" target="_blank" rel="noopener noreferrer">
+                <ImageListItem sx={{ width: 35, height: 25, mx: 2, transition: "opacity 0.3s", ":hover": { opacity: 0.7 } }} component="a" href="https://github.com/Satvik01000" target="_blank" rel="noopener noreferrer">
                     <img src={githubLogo} alt="GitHub Profile" />
                 </ImageListItem>
-                <ImageListItem sx={{ width: 42, height: 25, mx: 2, transition: "opacity 0.3s", ":hover": { opacity: 0.7 } }} component="a" href="https://www.linkedin.com/in/satvik0100" target="_blank" rel="noopener noreferrer">
+                <ImageListItem sx={{ width: 35, height: 25, mx: 2, transition: "opacity 0.3s", ":hover": { opacity: 0.7 } }} component="a" href="https://www.linkedin.com/in/satvik0100" target="_blank" rel="noopener noreferrer">
                     <img src={LinkedinLogo} alt="LinkedIn Profile" />
                 </ImageListItem>
-                <ImageListItem sx={{ width: 45, height: 25, mx: 2, transition: "opacity 0.3s", ":hover": { opacity: 0.7 } }} component="a" href="mailto:satvikmishra2192@gmail.com">
+                <ImageListItem sx={{ width: 37, height: 25, mx: 2, transition: "opacity 0.3s", ":hover": { opacity: 0.7 } }} component="a" href="mailto:satvikmishra2192@gmail.com">
                     <img src={EmailLogo} alt="Email" />
                 </ImageListItem>
             </ImageList>
