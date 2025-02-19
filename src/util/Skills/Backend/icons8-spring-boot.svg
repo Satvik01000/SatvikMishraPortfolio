@@ -9,5 +9,5 @@
     s.677-1.5 1.495-1.5c.341 0 .677.118.941.336C16.086 36.855 16.186 37.805 15.668 38.445L15.668 38.445z"/>
 
     <!-- SpringBoot text -->
-    <text x="24" y="55" font-size="10" font-family="Roboto, Arial, sans-serif" fill="#8bc34a" text-anchor="middle">SpringBoot</text>
+    <text x="24" y="53" font-size="10" font-family="Roboto, Arial, sans-serif" fill="#8bc34a" text-anchor="middle">SpringBoot</text>
 </svg>

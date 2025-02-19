@@ -1,8 +1,8 @@
-import {Typography} from "@mui/material";
+import {Box, Container, Typography} from "@mui/material";
 
 const Heading = ()=>{
     return(
-        <>
+        <Box sx={{mt:10}}>
             <Typography variant="h6" color="rgb(117, 251, 253)" sx={{ fontFamily: 'monospace' }}>
                 Hi, my name is
             </Typography>
@@ -22,7 +22,7 @@ const Heading = ()=>{
             <Typography variant="body1" color="rgb(117, 251, 253)" sx={{ fontWeight: 'bold', marginTop: 1 }}>
                 I am open for Work & Collaboration.
             </Typography>
-        </>
+        </Box>
     );
 }
 export default Heading;

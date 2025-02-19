@@ -1,4 +1,4 @@
-import { ImageList, ImageListItem, Typography } from "@mui/material";
+import {Box, ImageList, ImageListItem, Typography} from "@mui/material";
 import LeetcodeLogo from "../util/ProfileLinks/LeetcodeLogoWhite.png";
 import githubLogo from "../util/ProfileLinks/github-mark-white.png";
 import LinkedinLogo from "../util/ProfileLinks/In-Blue-34@2x.png";
@@ -6,7 +6,7 @@ import EmailLogo from "../util/ProfileLinks/communication.png";
 
 const ProfileLinks = () => {
     return (
-        <>
+        <Box sx={{ mt: 2, mb: 2 }}>
             <Typography variant="h5" color="rgb(200, 100, 100)" sx={{ fontWeight: 'bold', marginTop: 1 }}>
                 Here are some of my profiles :
             </Typography>
@@ -24,7 +24,7 @@ const ProfileLinks = () => {
                     <img src={EmailLogo} alt="Email" />
                 </ImageListItem>
             </ImageList>
-        </>
+        </Box>
     );
 };
 
