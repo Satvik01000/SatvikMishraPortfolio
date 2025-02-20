@@ -1,11 +1,14 @@
 {
+  "homepage": "https://satvik01000.github.io/Portfolio/",
   "name": "Portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "src/scripts.js",
   "scripts": {
     "start": "parcel src/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "private": true,
   "dependencies": {
