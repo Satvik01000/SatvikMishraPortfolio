@@ -42,7 +42,7 @@ const RealTimeChatComponent = () => {
                 {/* Description Section */}
                 <Grid2 size={{ xs: 12, md: 6 }}>
                     <Typography variant="h4" sx={{ color: "#fff", fontWeight: 600 }}>
-                        1) Real-Time Chat
+                        1) Real-Time Chat (Full Stack)
                     </Typography>
                     <Typography variant="body1" sx={{ color: "#aaa", mt: 2 }}>
                         A real-time, room-based chat application built with Spring Boot and React, featuring WebSocket communication, user authentication, persistent chat history, and a scalable architecture for seamless user interaction.
@@ -62,8 +62,8 @@ const RealTimeChatComponent = () => {
                         <Chip label="Material UI" sx={{ backgroundColor: "#0066cc", color: "#fff", fontWeight: "bold" }} />
                     </Stack>
                     <Stack direction="row" spacing={2} sx={{ mt: 3, flexWrap: "wrap", ml: 2 }}>
-                        <GitHubIcon htmlColor="#ffffff" fontSize="large" onClick={() => window.open("https://github.com/Satvik01000/RealTimeChat", "_blank")} style={{ cursor: "pointer" }} />
-                        <LanguageIcon htmlColor="#ffffff" fontSize="large" onClick={() => window.open("https://youtu.be/AK4cmM4pzmU", "_blank")} style={{ cursor: "pointer" }} />
+                        <GitHubIcon htmlColor="#ffffff" fontSize="large" onClick={() => window.open("", "_blank")} style={{ cursor: "pointer" }} />
+                        <LanguageIcon htmlColor="#ffffff" fontSize="large" onClick={() => window.open("", "_blank")} style={{ cursor: "pointer" }} />
                     </Stack>
                 </Grid2>
             </Grid2>

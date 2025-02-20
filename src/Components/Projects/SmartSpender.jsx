@@ -25,7 +25,7 @@ const SmartSpender = () => {
                 {/* Description Section */}
                 <Grid2 size={{ xs: 12, md: 6 }}>
                     <Typography variant="h4" sx={{ color: "#fff", fontWeight: 600 }}>
-                        2) Smart Spender
+                        2) Smart Spender (Full Stack)
                     </Typography>
                     <Typography variant="body1" sx={{ color: "#aaa", mt: 2 }}>
                         A full-stack expense tracker and analyzer made with Spring Boot and React, featuring Spring Security and JWT authentication, RESTful APIs, Charts.js for real-time analytics.
