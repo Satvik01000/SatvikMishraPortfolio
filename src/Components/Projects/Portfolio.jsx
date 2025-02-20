@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import { Box, Typography, Chip, Stack, IconButton, Grid2 } from "@mui/material";
 import { GitHub as GitHubIcon, Language as LanguageIcon, ArrowBack, ArrowForward } from "@mui/icons-material";
-import Portfolio from "../../util/Projects/Portfolio.png";
+import Portfolio1 from "../../util/Projects/Portfolio/1.png";
+import Portfolio2 from "../../util/Projects/Portfolio/2.png";
+import Portfolio3 from "../../util/Projects/Portfolio/3.png";
+import Portfolio4 from "../../util/Projects/Portfolio/4.png";
 
-const images = [Portfolio];
+const images = [Portfolio1, Portfolio2, Portfolio3, Portfolio4];
 
 const PortfolioComponent = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -57,7 +60,7 @@ const PortfolioComponent = () => {
                     </Stack>
                     <Stack direction="row" spacing={2} sx={{ mt: 3, flexWrap: "wrap", ml: 2 }}>
                         <GitHubIcon htmlColor="#ffffff" fontSize="large" onClick={() => window.open("https://github.com/Satvik01000/Portfolio", "_blank")} style={{ cursor: "pointer" }} />
-                        <LanguageIcon htmlColor="#ffffff" fontSize="large" onClick={() => window.open("", "_blank")} style={{ cursor: "pointer" }} />
+                        <LanguageIcon htmlColor="#ffffff" fontSize="large" onClick={() => window.open("https://youtu.be/xlozG42Ef0k", "_blank")} style={{ cursor: "pointer" }} />
                     </Stack>
                 </Grid2>
             </Grid2>

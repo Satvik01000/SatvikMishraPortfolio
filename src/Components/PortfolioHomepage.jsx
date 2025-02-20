@@ -1,4 +1,4 @@
-import { Box, Container, ImageList, ImageListItem, Typography } from "@mui/material";
+import { Box, Container, Typography } from "@mui/material";
 import "@fontsource/archivo-black";
 import Heading from "./Heading/Heading";
 import Skillset from "./Skillset/Skillset";
@@ -14,7 +14,15 @@ const PortfolioHomepage = () => {
             <Heading/>
             <Skillset/>
             <Projects/>
-            <Achievements_and_Certifications />
+            <Achievements_and_Certifications/>
+
+            {/* Footer Section */}
+            <Box sx={{ textAlign: "center", py: 3, color: "gray", mt: 5, borderTop: "1px solid rgba(255, 255, 255, 0.1)" }}>
+                <Typography variant="body2">Built with ❤️ by Satvik</Typography>
+                <Typography variant="caption" fontStyle="italic">
+                    "Code. Create. Contribute."
+                </Typography>
+            </Box>
         </Container>
     );
 };

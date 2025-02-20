@@ -13,7 +13,7 @@ const Heading = () => {
                     alignItems: "center",
                     justifyContent: "space-between",
                     mt: 30,
-                    mb: 40,
+                    mb: 35,
                 }}
             >
                 {/* Left Side - Text and Links */}
