@@ -3,13 +3,12 @@
   "name": "Portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "src/scripts.js",
   "scripts": {
     "start": "parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "private": true,
   "dependencies": {
@@ -26,6 +25,7 @@
     "@parcel/transformer-raw": "^2.13.3",
     "gh-pages": "^6.3.0",
     "parcel": "^2.13.3",
-    "process": "^0.11.10"
+    "process": "^0.11.10",
+    "svgo": "^3.3.2"
   }
 }

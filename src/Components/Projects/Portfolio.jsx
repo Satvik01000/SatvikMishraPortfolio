@@ -60,7 +60,7 @@ const PortfolioComponent = () => {
                     </Stack>
                     <Stack direction="row" spacing={2} sx={{ mt: 3, flexWrap: "wrap", ml: 2 }}>
                         <GitHubIcon htmlColor="#ffffff" fontSize="large" onClick={() => window.open("https://github.com/Satvik01000/Portfolio", "_blank")} style={{ cursor: "pointer" }} />
-                        <LanguageIcon htmlColor="#ffffff" fontSize="large" onClick={() => window.open("https://youtu.be/xlozG42Ef0k", "_blank")} style={{ cursor: "pointer" }} />
+                        <LanguageIcon htmlColor="#ffffff" fontSize="large" onClick={() => window.open("https://satvik01000.github.io/Portfolio/", "_blank")} style={{ cursor: "pointer" }} />
                     </Stack>
                 </Grid2>
             </Grid2>
