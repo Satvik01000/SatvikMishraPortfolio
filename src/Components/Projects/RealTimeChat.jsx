@@ -42,7 +42,7 @@ const RealTimeChatComponent = () => {
                 {/* Description Section */}
                 <Grid2 size={{ xs: 12, md: 6 }}>
                     <Typography variant="h4" sx={{ color: "#fff", fontWeight: 600 }}>
-                        1) Real-Time Chat
+                        1) Real-Time Chat (Full Stack)
                     </Typography>
                     <Typography variant="body1" sx={{ color: "#aaa", mt: 2 }}>
                         A real-time, room-based chat application built with Spring Boot and React, featuring WebSocket communication, user authentication, persistent chat history, and a scalable architecture for seamless user interaction.
