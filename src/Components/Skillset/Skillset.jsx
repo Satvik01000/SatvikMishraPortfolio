@@ -19,8 +19,10 @@ const Skillset = () => {
                 </Typography>
                 <Divider sx={{ flexGrow: 1, bgcolor: "#00ADB5", height: "2px", mx: 2 }} />
             </Box>
-            <Backend/>
-            <Frontend/>
+            <Box sx={{mt:8}}>
+                <Backend/>
+                <Frontend/>
+            </Box>
         </Box>
     );
 };

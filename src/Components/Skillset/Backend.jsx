@@ -24,7 +24,7 @@ const Backend = () => {
                             alt={skill.name}
                             style={{ width: skill.width, height: skill.height, backgroundColor: skill.bg || "transparent" }}
                         />
-                        <Typography variant="h6" sx={{ color: "#d3d2d2", mt: 1, fontWeight: "bold" }}>
+                        <Typography variant="h6" sx={{ color: "#d3d2d2", mt: 1, fontWeight: "bold", mb:10 }}>
                             {skill.name}
                         </Typography>
                     </Box>
