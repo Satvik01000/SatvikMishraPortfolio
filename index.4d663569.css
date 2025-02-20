@@ -1,0 +1,21 @@
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0ff;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00bfbf;
+}
+
+html {
+  scrollbar-color: #0ff #1e1e1e;
+}
+/*# sourceMappingURL=index.4d663569.css.map */
