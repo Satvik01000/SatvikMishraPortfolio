@@ -58,7 +58,7 @@ const Heading = () => {
                                 backgroundColor: "#2563EB",
                             },
                         }}
-                        onClick={() => window.open("https://drive.google.com/file/d/1dGoN9HveNDpxMi5GOtZ_jqSWFRUFH9HI/view?usp=sharing")}
+                        onClick={() => window.open("https://drive.google.com/file/d/12xh-_IwSLRogo4W4EEZb4YlWeCS5Ryf8/view?usp=sharing")}
                     >
                         Resume <Download sx={{ fontSize: 20 }} />
                     </Button>
